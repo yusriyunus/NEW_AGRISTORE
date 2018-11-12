@@ -208,20 +208,6 @@ class Header extends Component {
             }}
           >
             <Nav className="ml-auto" navbar style={{ margin: 0 }}>
-              <NavItem id="loginButton">
-                <NavLink>
-                  <Link to="/users">
-                    <h3
-                      style={{
-                        color: "white",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Users
-                    </h3>
-                  </Link>
-                </NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink>
                   <h3
